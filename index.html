@@ -1,14 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/CSS/reset.css" />
     <link rel="stylesheet" href="./assets/CSS/styles.css" />
     <title>Portfolio</title>
 </head>
+
 <body>
-    
+    <!-- header containing nav -->
+    <header>
+        <h1>Shannon Burris</h1>
+        <nav>
+            <a href="#about-me">About</a>
+            <a href="#work">Work</a>
+            <a href="#contact">Contact Me</a>
+            <a href="#">Resume</a>
+        </nav>
+    </header>
+    <!-- hero banner -->
+    <section class="hero-banner">
+        <div class="hero-text">
+            <h2>Web dev extraordinaire</h2>
+        </div>
+    </section>
+    <!-- flex containers -->
+    <section class="container">
+        <div class="flex-row">
+            <div class="left">
+                <h2 id="about-me">About Me</h2>
+            </div>
+            <div class="content">
+                <p id="about-me-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus cupiditate
+                    nostrum ad corporis fuga rerum, ratione qui minus velit, reprehenderit, vitae totam? Doloremque illo
+                    modi quod repellat nemo autem veritatis?</p>
+            </div>
+        </div>
+        <div class="flex-row">
+            <div class="left">
+                <h2 id="work">Work</h2>
+            </div>
+            <div class="content" id="work-content">
+                <article>
+                    <a href="#">
+                        <div class="card-links">
+                            <h2>Surf Report</h2>
+                            <h3>MERN Stack</h3>
+                        </div>
+                        <img src="http://via.placeholder.com/640x360" alt="placeholder image">
+                    </a>
+                </article>
+                <article>
+                    <a href="#">
+                        <div class="card-links">
+                            <h2>LED Wall</h2>
+                            <h3>Node/IoT</h3>
+                        </div>
+                        <img src="http://via.placeholder.com/640x360" alt="placeholder image">
+                    </a>
+                </article>
+                <article>
+                    <a href="#">
+                        <div class="card-links">
+                            <h2>Calculator</h2>
+                            <h3>React/JavaScript/CSS</h3>
+                        </div>
+                        <img src="http://via.placeholder.com/640x360" alt="placeholder image">
+                    </a>
+                </article>
+                <article>
+                    <a href="#">
+                        <div class="card-links">
+                            <h2>Pastel Puzzels</h2>
+                            <h3>MERN Stack</h3>
+                        </div>
+                        <img src="http://via.placeholder.com/640x360" alt="placeholder image">
+                    </a>
+                </article>
+                <article>
+                    <a href="#">
+                        <div class="card-links"> 
+                            <h2>Run Buddy</h2>
+                            <h3>HTML/CSS</h3>
+                        </div>
+                        <img src="http://via.placeholder.com/640x360" alt="placeholder image">
+                    </a>
+                </article>
+            </div>
+        </div>
+        <div class="flex-row">
+            <div class="left">
+                <h2 id="contact">Contact</h2>
+            </div>
+            <div class="content">
+                <ul class="contact-links">
+                    <li> <a href="tel:863-255-6043">863-255-6043</a> </li>
+                    <li> <a href="mailto:shannonjburris@gmail.com" target="_blank">shannonjburris@gmail.com</a> </li>
+                    <li> <a href="https://github.com/shannonjburris" target="_blank">GitHub</a> </li>
+                    <li> <a href="www.linkedin.com/in/shannon-burris" target="_blank">Linkedin</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
 </body>
+
 </html>
