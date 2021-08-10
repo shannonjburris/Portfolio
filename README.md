@@ -3,5 +3,6 @@ This is a portfolio of work to showcase my skills. This is a responsive webpage 
 
 Link to repo: https://github.com/shannonjburris/Portfolio
 
-![screen shot of deployed app]( )
+![Screen Shot 2021-08-10 at 6 21 45 PM](https://user-images.githubusercontent.com/85596303/128942635-de724a80-d1b5-4204-b7f7-7a7084dfc8ba.png)
+
 
